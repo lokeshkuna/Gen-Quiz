@@ -2,8 +2,6 @@
 
 A comprehensive quiz creation and assignment platform built with React.js, Node.js, Express.js, and MongoDB.
 
-> **Note**: This application is configured for local development. Production URLs in the codebase are placeholders (example.com) and should be replaced with your actual hosting URLs if deploying to production.
-
 ## 🚀 Quick Start
 
 ### Prerequisites
