@@ -137,31 +137,6 @@ PORT=5000
 - ✅ Quiz completion notifications
 - ✅ Admin notifications
 
-## 🐛 Recent Fixes
-
-### Fixed Issues:
-1. **Quiz Assignment Navigation**: Fixed the issue where "Take Quiz" was going to random quizzes instead of assigned ones
-   - Added new endpoint `/quiz/assigned/:quizId` for proper validation
-   - Updated frontend to use `getAssignedQuiz()` instead of `getQuiz()`
-   - Added assignment validation and expiration checks
-
-2. **Quiz Submission Errors**: Fixed issues with quiz submission for assigned quizzes
-   - Updated backend to properly check assignment status
-   - Added better error handling and debugging
-   - Fixed access control for assigned quizzes
-
-3. **Navigation After Quiz Creation**: Fixed navigation after creating quizzes
-   - Now goes to dashboard instead of random quiz page
-
-4. **Nodemailer Configuration**: Improved email service error handling
-   - Added graceful handling of missing environment variables
-   - Better error messages and logging
-   - Mock email service when not configured
-
-5. **PowerShell Compatibility**: Fixed command execution issues
-   - Provided alternative commands for different shells
-   - Added proper path handling for Windows
-
 ## 📁 Project Structure
 
 ```
